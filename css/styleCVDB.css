@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* header */
+
+.firstName{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shojumaru', cursive;
+    color:#FFF500;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    
+    
+}
+
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shojumaru', cursive;
+    color: #FF0202;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+
+
+h5{
+    color: #ff9029;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px rgb(255, 245, 223), 0 0 15px rgb(255, 195, 65), 0 0 20px #fcb16b , 0 0 30px #fae73a , 0 0 40px #efa507 ;
+    color: #ffffff;
+    background: #232323;
+}
+
+
+.neon{
+    color: #ff9029;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px rgb(255, 245, 223), 0 0 15px rgb(255, 195, 65), 0 0 20px #fcb16b , 0 0 30px #fae73a , 0 0 40px #efa507 ;
+    color: #ffffff;
+    background: #232323;
+}
+
+/* media queries firstname et name header */
+
+@media (max-width : 426px ) {
+    .firstName{
+        font-size : 1rem;
+    }
+
+    .name{
+        font-size : 1rem;
+    } 
+
+    
+}
+
