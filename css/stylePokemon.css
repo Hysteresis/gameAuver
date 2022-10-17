@@ -1,0 +1,28 @@
+.logo{
+    width: 100px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+
+/* animation bouton */
+.btn:hover{
+    transition: 0.8ms;
+    box-shadow: 2px 2px 3px rgb(131, 131, 131);
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px rgb(131, 131, 131);
+}
+
+.navbar-toggler-icon:hover{
+    transform: scale(1.1);
+    
+}
+
+.logoFooter{
+    transform: scale(1.1);
+}

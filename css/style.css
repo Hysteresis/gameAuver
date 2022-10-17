@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -9,32 +10,67 @@
     color: whitesmoke;
 }
 
-
-
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.borderImage{
+    box-shadow: 2px 2px 5px rgb(131, 131, 131);
+    border-image: linear-gradient(red, blue) 27 / 35px;
+    border-image-width: 5% 15% 10%;
+    transition-duration: 0.3s;  
+}
+
+.borderImage:hover{
+    box-shadow: 4px 4px 5px rgb(131, 131, 131);
+    transform: scale(1.02);
+    overflow: hidden;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    color: #ff9029;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 0 0 10px rgb(255, 245, 223), 0 0 15px rgb(255, 195, 65), 0 0 20px #fcb16b , 0 0 30px #fae73a , 0 0 40px #efa507 ;
+    color: #ffffff;
+    background: #232323;
 }
 
 
-/* Effet de mouvement sur les CARDS TOP : formation DevWeb */
-.card-img-overlay {
-    transition-duration: 0.5s;
-    opacity: 0.8;
-    margin: 0;
-    padding: 0;
-    height: 50%;  
+#skillBarBS{
+    height: 30px;   
+    background: linear-gradient(#f6f6f6 0%, rgb(235, 235, 235) 10%, rgb(63, 63, 63));
+    margin-left: 20px;
+    border-radius: 8px; 
 }
 
-.card-img-overlay:hover{
-    justify-content: center;   
-    height: 100%;          
+#colorSkillBarBS{
+    height: 30px;   
+    background: linear-gradient(#f004dc 0%, rgb(229, 35, 255) 10%, rgb(108, 0, 112));
+    width: 0%;
+    border-radius: 8px 0px 0px 8px;
+    
+}
+
+#skillBarJS{
+    height: 30px;   
+    background: linear-gradient(#f6f6f6 0%, rgb(235, 235, 235) 10%, rgb(63, 63, 63));
+    margin-left: 20px;
+    border-radius: 8px;
 }
 
 
-.opaciteCarte{
-    opacity: 1.5;
+#colorSkillBarJS{
+    height: 30px;   
+    background: linear-gradient(#faf746 0%, rgb(243, 245, 113) 10%,rgb(248, 251, 29));
+    width: 0%;
+    border-radius: 8px 0px 0px 8px;
 }
+
+
 
 /* effet de zoom */
 .zoomImage{
@@ -44,19 +80,8 @@ body{
     
 
 .zoomImage:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: 3px 3px 6px rgb(163, 163, 163);
-}
-     
-.borderImage{
-    box-shadow: 2px 2px 5px rgb(131, 131, 131);
-    border-image: linear-gradient(red, blue) 27 / 35px;
-    border-image-width: 5% 15% 10%;
-    transition-duration: 0.3s;
-}
-
-.borderImage:hover{
-    box-shadow: 4px 4px 5px rgb(131, 131, 131);
-    transform: scale(1.05);
     
 }
+     

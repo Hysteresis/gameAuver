@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.heures{
+    background: #232323;
+    font-family: 'Orbitron', sans-serif;    
+    color: #ff2b18;   
+    text-shadow: 0 0 5px #ff2b18;
+    padding: 20px 20px;  
+  
+}
+
+#imgHamburger{
+    
+}
+
+
+.nav-item:hover{
+    color : var(--main-text-color);
+    text-decoration: underline ;
+    text-decoration-color: rgb(209, 209, 209);
+    text-underline-position: under;
+    text-decoration-line: underline overline;
+    color: whitesmoke;
+}
+
+/* overlay Menu */
+.overlay{
+    display: flex;
+    flex-direction: column-reverse ;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0);
+    background-color: rgba(0,0,0, 0.95);
+
+    transition: 0.5s;
+    color: white;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #a5a5a5;
+    display: block;
+    transition: 0.3s;  
+  }
+  
+  /* .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+   */
+
+

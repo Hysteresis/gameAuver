@@ -1,0 +1,58 @@
+.nav-link{
+    color: yellow;  
+}
+
+.nav-link:hover{
+    text-underline-position: under;
+    text-decoration-line: underline overline;  
+    color: yellow;  
+    
+}
+
+.bgPanoramix{
+    background-image: url('/assets/imgAsterix/panoramix.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    transition: 0ms;
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 10px;  
+}
+
+.bgSanglier{
+    background-image: url('/assets/imgAsterix/sanglier.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    transition: 0ms;
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 10px;  
+}
+
+
+footer, a{
+    text-align: end;
+    margin: 2rem;
+    color: #fae73a;
+}
+
+h2 {
+    color: #ff9029;
+    
+    text-shadow: 0 0 5px rgb(255, 150, 29), 0 0 10px rgb(255, 245, 104), 0 0 15px rgb(255, 178, 12), 0 0 20px #fcb16b , 0 0 30px #fae73a , 0 0 40px #efa507 ;
+    color: #ffffff; 
+}
+
+
+main{
+    color: yellow;
+}
+

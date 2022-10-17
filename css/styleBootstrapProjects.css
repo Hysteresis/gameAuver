@@ -1,0 +1,35 @@
+.asterix{    
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100%;
+}
+
+.pokemon{
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+   
+}
+
+.card{
+    transition: 0.2s;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card-img-overlay{
+    opacity: 0%;
+    transition: 0.1s;
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+
+}
+
+.card-img-overlay:hover{
+    opacity: 100%;
+    
+
+}
